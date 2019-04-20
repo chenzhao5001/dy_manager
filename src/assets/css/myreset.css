@@ -1,0 +1,25 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html,body {
+  height:100%;
+  width: 100%;
+}
+
+.flex-h {
+  display: flex;
+  flex-flow: column;
+}
+
+
+.center {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto auto;
+}
+
