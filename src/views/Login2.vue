@@ -34,7 +34,12 @@
     },
     methods:{
       login:function () {
-        alert(222)
+        // console.log(this.$test.a)
+        this.$router.push("/hello_world");
+        // alert(111)
+        // this.$get("https://daoyinjiaoyu.com/guidesound/admin/login").then(function (ret) {
+        //   console.log(ret);
+        // })
       },
       checkout:function () {
         let reg = /^(((13[0-9]{1})|(15[0-9]{1})|(18[0-9]{1}))+\d{8})$/;
@@ -88,7 +93,7 @@
 
       .login-btn {
         display: block;
-        margin: 50px auto;
+        margin: 40px auto;
         width: 50%;
       }
     }
