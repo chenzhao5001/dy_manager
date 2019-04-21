@@ -35,7 +35,8 @@
     methods:{
       login:function () {
         // console.log(this.$test.a)
-        this.$router.push("/hello_world");
+        // this.$router.push("/hello_world");
+        this.$router.push("/container");
         // alert(111)
         // this.$get("https://daoyinjiaoyu.com/guidesound/admin/login").then(function (ret) {
         //   console.log(ret);
